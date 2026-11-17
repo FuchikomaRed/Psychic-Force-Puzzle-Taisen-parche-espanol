@@ -1,0 +1,59 @@
+PSYCHIC FORCE – PUZZLE TAISEN · TRADUCCIÓN AL ESPAÑOL · VERSIÓN FINAL
+(PlayStation, Taito 1997 · SLPS-01018 disco 1 y SLPS-01019 disco 2)
+
+ARCHIVOS DE ESTA CARPETA
+- Psychic Force - Puzzle Taisen (Japan) (Disc 1) (Game Disc) [ES].bin / .cue
+- Psychic Force - Puzzle Taisen (Japan) (Disc 2) (Premium CD-ROM) [ES].bin / .cue
+- aplicar_traduccion_windows.bat + aplicar_traduccion.ps1 · aplicador para Windows (no hace falta instalar nada).
+- aplicar_traduccion.py · aplicador para Mac o Linux (Python 3).
+- psychicforce_glosario_v1.0.csv · glosario final.
+
+CÓMO JUGAR
+Abre el .cue de cada disco en RetroArch u otro emulador de PlayStation.
+Cada disco es un único BIN con todas sus pistas de audio dentro.
+
+CÓMO GENERARLOS DESDE LOS DISCOS ORIGINALES
+
+En Windows
+1. Deja aplicar_traduccion_windows.bat y aplicar_traduccion.ps1 juntos en la misma carpeta.
+2. Arrastra la carpeta del disco original (la que tiene el .cue y las pistas) sobre aplicar_traduccion_windows.bat.
+3. El disco traducido aparece en la carpeta «Psychic Force ES», junto al .bat.
+4. Repite con el otro disco.
+Si Windows muestra el aviso «Windows protegió su PC», pulsa «Más información» y «Ejecutar de todas formas».
+
+En Mac o Linux
+python3 aplicar_traduccion.py "carpeta del disco original" "carpeta de salida"
+
+Necesita la versión japonesa con su .cue y todas sus pistas.
+El aplicador reconoce solo si es el disco 1 o el 2, comprueba que la pista de datos es la original,
+la parchea y une todas las pistas en un BIN con su CUE. No modifica tus archivos originales.
+
+QUÉ ESTÁ TRADUCIDO
+
+Disco 1 (juego)
+- Diálogos de la historia de los 9 personajes (459 frases), con tildes, ñ y ¿¡.
+- Mensajes de la tarjeta de memoria.
+- Menús, opciones, controles, modos, dificultad, elección de personaje, mapa y nombres de fase.
+- Rótulos de la partida: LISTO, ¡YA!, ¡VAMOS!, VENCEDOR/PERDEDOR, CONTINUAR, SIG., RONDA,
+  TIEMPO EMPLEADO, BONUS DE TIEMPO, ¡FASE SUPERADA!, ÁLBUM ¡NUEVA IMAGEN!, RÉCORDS, ¡UN NUEVO RIVAL!...
+- Pantalla «Cómo jugar» y panel de ayuda.
+
+Disco 2 (Premium CD-ROM)
+- Menú y cabeceras: VÍDEOS ESPECIALES, GALERÍA SONORA, BIBLIOTECA DE VOCES.
+- CARGANDO y PULSA START.
+- Biblioteca de voces: bocadillos y TIPO.
+- Fichas de los 9 juegos: título, fecha de salida y precio.
+- Galería sonora: textos de los 14 discos de ZUNTATA y «Pista #».
+
+SE QUEDA COMO EN EL ORIGINAL (por decisión)
+- GAME OVER (lleva un dibujo dentro de la O).
+- Logotipo del título, emblema STOP / PLAY / MENU del disco 2 y vídeos.
+- Nombres propios de discos y canciones del disco 2.
+- La velocidad de carga.
+
+AVISO CONOCIDO (del juego original, no de la traducción)
+En la Galería sonora del disco 2, si se pulsan botones muy rápido mientras se carga una portada,
+el juego puede quedarse parado. Pasa también con el disco original sin traducir, sobre todo con el núcleo
+PCSX ReARMed. Espera a que aparezcan la portada y el texto antes de volver a pulsar. Si se queda parado,
+reinicia el juego: una partida guardada en ese momento ya está colgada.
+Con el núcleo Beetle PSX sale mucho menos.
